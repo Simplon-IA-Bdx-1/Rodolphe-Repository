@@ -144,6 +144,6 @@ model.compile(loss = "mse", optimizer = "adam")
 
 
 model.summary()
-hist = model.fit(X_tr, y_tr, validation_data = (X_val, y_val), epochs = 5000)
+hist = model.fit(X_tr, y_tr, validation_data = (X_val, y_val), epochs = 500)
 
 pd.Series(model.predict(X_val)[:,0]).hist()
