@@ -12,5 +12,10 @@ To use my app, you must have installed on your locale machine Spyder 3.3 (or gre
 
 ### Installation and Execution
 
-In order to use the application, you can simply download the .py in your local machine, and execute cell after cell (API is working under my account you should change it in order to have it for your account!)
+To use the app, you will need to follow two little steps : 
+- Download the content of the repository into your local machine or virtual machine
+- edit the file 'auth-public.env' and add your credential Kaggle and BigML
+- Open app.py and run it ! (you may need to make some !pip install for the module who is not installed on your machine ;)
+
+Enjoy!
 
